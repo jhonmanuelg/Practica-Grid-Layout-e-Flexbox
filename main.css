@@ -53,11 +53,13 @@ header {
 
 .menu li a {
     display: block;
-    padding: 10px;
+    padding: 2px;
 }
 
 .menu li a:hover {
+    border-radius: 8%;
     border: 1px solid rgba(255, 208, 0, 0.582);
+    background: rgba(255, 255, 0, 0.229);
 }
 
 
@@ -180,7 +182,7 @@ header {
 }
 
 .grid-item > p{
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(43, 201, 209, 0.6);
     padding: 10px;
     color: aqua;
     grid-column: 1;
