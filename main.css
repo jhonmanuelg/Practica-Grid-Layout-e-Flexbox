@@ -147,3 +147,43 @@ header {
         margin: 0 10px;
     }
 }
+
+/*--- Css Grid #3 ---*/
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.grid-item:nth-child(1){
+  grid-row: 1 / 3;
+}
+
+.img1{
+    max-width: 100%;
+    height: 100%;
+}
+
+.grid-item{
+    display: grid;
+
+}
+
+.grid-item img{
+    grid-column: 1;
+    grid-row: 1/3;
+    align-self: flex-end;
+}
+
+.grid-item > p{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    color: aqua;
+    grid-column: 1;
+    grid-row: 2;
+    align-self: flex-end;
+}
